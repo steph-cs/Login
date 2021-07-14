@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="mquery.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+</head>
+<body>
+    <div class="login-reg-panel">
+		<div class="login-info-box no-show" id="login-info">
+			<h2>Já é cadastrado?</h2>
+			
+			<button class="btn" id="label-register" for="log-reg-show" onclick="change()"> Login</button>
+			<input type="radio" name="active-log-panel" id="log-reg-show"  checked="checked">
+		</div>			
+		<div class="register-info-box" id="register-info">
+			<h2>Não é cadastrado?</h2>
+			
+			<button class="btn"id="label-login" for="log-login-show" onclick="change()">Cadastrar-se</button> 
+			<input type="radio" name="active-log-panel" id="log-login-show">
+		</div>
+							
+		<div class="white-panel right" id="white-panel">
+			<div class="login-show show" id="login">
+				<h2>LOGIN</h2>
+				<input type="text" placeholder="Email">
+				<input type="password" placeholder="Password">
+				<input type="button" value="Login">
+			</div>
+			<div class="register-show no-show" id="register">
+				<h2>REGISTER</h2>
+				<input type="text" placeholder="Email">
+				<input type="password" placeholder="Password">
+				<input type="password" placeholder="Confirm Password">
+				<input type="button" value="Register">
+			</div>
+			
+		</div>
+	</div>
+    <script src="script.js"></script>
+</body>
+</html>
