@@ -20,7 +20,7 @@ a{
     margin:auto;
     height:400px;
     /*background-color: rgba(236, 48, 20, 0.9);*/
-    background-color: blue;
+    background-color: #0067b9;
 }
 .white-panel{
     background-color: rgba(255,255, 255, 1);
@@ -45,7 +45,7 @@ a{
     display:none;
 }
 .login-reg-panel{
-    color:#B8B8B8;
+    color:#ffffff;
 }
 .login-reg-panel #label-login, 
 .login-reg-panel #label-register{
