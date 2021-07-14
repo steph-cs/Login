@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,14 +15,14 @@
 		<div class="login-info-box no-show" id="login-info">
 			<h2>Já é cadastrado?</h2>
 			
-			<button class="btn" id="label-register" for="log-reg-show" onclick="change()"> Login</button>
-			<input type="radio" name="active-log-panel" id="log-reg-show"  checked="checked">
+			<button class="btn" id="btn-register" for="log-reg-show" onclick="change()"> Login</button>
+			
 		</div>			
 		<div class="register-info-box" id="register-info">
 			<h2>Não é cadastrado?</h2>
 			
-			<button class="btn"id="label-login" for="log-login-show" onclick="change()">Cadastrar-se</button> 
-			<input type="radio" name="active-log-panel" id="log-login-show">
+			<button class="btn"id="btn-login" for="log-login-show" onclick="change()">Cadastrar-se</button> 
+			
 		</div>
 							
 		<div class="white-panel right" id="white-panel">
@@ -30,14 +30,14 @@
 				<h2>LOGIN</h2>
 				<input type="text" placeholder="Email">
 				<input type="password" placeholder="Password">
-				<input type="button" value="Login">
+				<input class="btn" type="button" value="LOGIN">
 			</div>
 			<div class="register-show no-show" id="register">
 				<h2>REGISTER</h2>
 				<input type="text" placeholder="Email">
 				<input type="password" placeholder="Password">
 				<input type="password" placeholder="Confirm Password">
-				<input type="button" value="Register">
+				<input class="btn" type="button" value="CADASTRAR">
 			</div>
 			
 		</div>
